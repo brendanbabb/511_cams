@@ -8,7 +8,7 @@ API_KEY = os.environ.get('API_KEY')  # Store your API key as an environment vari
 
 def fetch_webcam_image(camera_id):
     # Replace with the actual API endpoint
-    api_url = f"https://api.example.com/webcams/{camera_id}/image"
+    api_url = f"https://511.alaska.gov/api/v2/get/cameras"
 
     headers = {
         'Authorization': f'Bearer {API_KEY}',
